@@ -1,12 +1,36 @@
+/* === Navbar === */
 .navbar-nav > li{
     padding-left:7px;
     padding-right:7px;
     letter-spacing: 1px;
 }
+
+/* === Carousel === */
 .first-section {
     background-position-x: center;
     overflow: hidden;
     height: 100vh;
     vertical-align: middle;
     background-size: cover;
+}
+
+/* === About us === */
+.section-title h2{
+    font-size: 3rem;
+}
+.about .content ul i {
+    font-size: 20px;
+    padding-right: 4px;
+    color: #5fcf80;
+}
+.about .content ul{
+    list-style: none;
+    padding-left: 0;
+}
+hr.style-two {
+    margin: auto;
+    border: 0;
+    width: 45%;
+    height: 2px;
+    background-image: linear-gradient(to right, rgba(0, 0, 0, 0), rgba(0, 0, 0, 0.75), rgba(0, 0, 0, 0));
 }
