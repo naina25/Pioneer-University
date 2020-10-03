@@ -3,15 +3,10 @@
     padding-right:7px;
     letter-spacing: 1px;
 }
-.carousel {
+.first-section {
+    background-position-x: center;
+    overflow: hidden;
     height: 100vh;
-    width: 100%;
-    overflow:hidden;
-}
-.carousel .carousel-inner {
-    height:100%;    
-}
-.carousel .carousel-inner img {
-    display:block;
-    object-fit: contain;
+    vertical-align: middle;
+    background-size: cover;
 }

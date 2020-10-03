@@ -21,7 +21,7 @@
                         <span class="navbar-toggler-icon"></span>
                     </button>
                     <div class="collapse navbar-collapse" id="navbarSupportedContent">
-                        <ul class="navbar-nav ml-auto mb-2 mb-lg-0">
+                        <ul class="navbar-nav mr-auto mb-2 mb-lg-0">
                             <li class="nav-item ">
                                 <a class="nav-link" aria-current="page" href="#">Home</a>
                             </li>
@@ -50,7 +50,41 @@
 
         <!-- main section -->
         <main>
-        
+            <!-- carousel banner(image slider) -->
+            <div id="carouselExampleInterval" class="carousel slide" data-ride="carousel">
+                <!-- carousel indicators -->
+                <ol class="carousel-indicators">
+                    <li data-target="#carouselExampleInterval" data-slide-to="0" class="active"></li>
+                    <li data-target="#carouselExampleInterval" data-slide-to="1"></li>
+                    <li data-target="#carouselExampleInterval" data-slide-to="2"></li>
+                </ol>
+                <div class="carousel-inner" role="listbox">
+                    <div class="carousel-item active">
+                        <div id="home" class="first-section" style="background-image:url('imgs/rsz_presentation.jpg');">
+                        </div><!-- end section -->
+                    </div>
+                    <div class="carousel-item">
+                        <div id="home" class="first-section" style="background-image:url('imgs/Library.jpg');">
+                        </div><!-- end section -->
+                    </div>
+                    <div class="carousel-item">
+                        <div id="home" class="first-section" style="background-image:url('imgs/rsz_graduation.jpg');">
+                        </div><!-- end section -->
+                    </div>
+                </div>
+                <!-- left controller -->
+                <a class="carousel-control-prev" href="#carouselExampleInterval" role="button" data-slide="prev">
+                    <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                    <span class="visually-hidden">Previous</span>
+                </a>
+                <!-- right controller -->
+                <a class="carousel-control-next" href="#carouselExampleInterval" role="button" data-slide="next">
+                    <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                    <span class="visually-hidden">Next</span>
+                </a>
+            </div>
+            <!-- end of carousel -->
+            
         </main>
         <!-- end of main section-->
 
@@ -59,7 +93,7 @@
 
         </footer>
         <!-- end of footer section -->
-        
+
 
         <script src="https://stackpath.bootstrapcdn.com/bootstrap/5.0.0-alpha2/js/bootstrap.min.js" integrity="sha384-5h4UG+6GOuV9qXh6HqOLwZMY4mnLPraeTrjT5v07o347pj6IkfuoASuGBhfDsp3d" crossorigin="anonymous"></script>
         
