@@ -34,3 +34,54 @@ hr.style-two {
     height: 2px;
     background-image: linear-gradient(to right, rgba(0, 0, 0, 0), rgba(0, 0, 0, 0.75), rgba(0, 0, 0, 0));
 }
+
+/* === Trainers === */
+.trainers .member {
+    text-align: center;
+    margin-bottom: 20px;
+    background: #fff;
+    border: 1px solid #eef0ef;
+}
+
+.trainers .member img {
+    margin: -1px -1px 30px -1px;
+}
+
+.trainers .member .member-content {
+    padding: 0 20px 30px 20px;
+}
+
+.trainers .member h4 {
+    font-weight: 700;
+        margin-bottom: 2px;
+    font-size: 25px;
+}
+
+.trainers .member span {
+    display: block;
+    font-size: 20px;
+}
+
+.trainers .member p {
+    padding-top: 10px;
+    font-size: 14px;
+    color: #aaaaaa;
+}
+
+.trainers .member .social {
+    margin-top: 15px;
+}
+
+.trainers .member .social a {
+    color: #7e9486;
+    transition: 0.3s;
+}
+
+.trainers .member .social a:hover {
+    color: #5fcf80;
+}
+
+.trainers .member .social i {
+    font-size: 18px;
+    margin: 0 2px;
+}
