@@ -60,6 +60,9 @@ hr.style-two {
     height: 5px;
     background-image: linear-gradient(to right, #a18c8c, #7a0303,#a18c8c);
 }
+.campus{
+    box-shadow: 0px 6px 17px #a14949;
+}
 /* End About */
 
 /* === Programs section === */
@@ -140,7 +143,6 @@ hr.style-two {
     font-size: 1.5rem;
     
 }
-
 
 /* End Events */
 
