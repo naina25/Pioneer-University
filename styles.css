@@ -13,18 +13,30 @@ body{
     padding-right:7px;
     letter-spacing: 1px;
 }
-.navbar-brand{
+.navbar-light .navbar-brand{
     font-family: 'Nunito', sans-serif;
     font-weight: 600;
     font-size: 1.3rem;
+    
 }
-
 a.navbar-brand span{
     font-size: 1.7rem;
     font-weight: 900;
 }
+.navbar-light .navbar-nav .nav-link{
+    color: #312f2f;
+}
+.navbar-light .navbar-nav .nav-link:hover {
+    color: #5fcf80;
+}
+.navbar-light{
+    background-color: #688071;
+}
 
 /* === Carousel === */
+.carousel.slide{
+    margin-top: 55px;
+}
 .first-section {
     background-position-x: center;
     overflow: hidden;
@@ -50,8 +62,8 @@ hr.style-two {
     margin: auto;
     border: 0;
     width: 80%;
-    height: 2px;
-    background-image: linear-gradient(to right, rgba(0, 0, 0, 0), rgba(0, 0, 0, 0.75), rgba(0, 0, 0, 0));
+    height: 5px;
+    background-image: linear-gradient(to right, rgb(182, 179, 179), rgba(0, 0, 0), rgb(182, 178, 178));
 }
 /* End About */
 
