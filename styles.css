@@ -89,7 +89,7 @@ hr.style-two {
 }
 
 .events .card-title a {
-    color: #37423b;
+    color: #000000;
     transition: 0.3s;
     text-decoration: none;
     font-size: 1.3rem;
@@ -113,12 +113,11 @@ hr.style-two {
     font-size: 12px;
     transition: 0.3s;
 }
-.events a:hover {
-    color: #5fcf80;
-}
   
 .events .card:hover .card-body .card-title a {
     color: #5fcf80;
+    font-size: 1.5rem;
+    
 }
 
 /* End Events */
