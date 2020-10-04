@@ -1,3 +1,10 @@
+html{
+    scroll-behavior: smooth;
+}
+body{
+    line-height: 1.7;
+}
+
 /* === Navbar === */
 .navbar-nav > li{
     padding-left:7px;
@@ -84,4 +91,36 @@ hr.style-two {
 .trainers .member .social i {
     font-size: 18px;
     margin: 0 2px;
+}
+
+/* === Footer section === */
+
+footer
+{
+    background-color: #0b2e24;
+    color: white;
+}
+.footer-links-soi 
+{
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: #0b2e24;
+}
+.footer-links-soi li 
+{
+    float: left;
+}
+.footer-links-soi li a 
+{
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 16px;
+    text-decoration: none;
+}
+#submit {
+    width: 50%;
+    
 }
