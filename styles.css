@@ -31,9 +31,7 @@ a.navbar-brand span{
 }
 
 /* === Carousel === */
-.carousel.slide{
-    margin-top: 55px;
-}
+
 .first-section {
     background-position-x: center;
     overflow: hidden;
