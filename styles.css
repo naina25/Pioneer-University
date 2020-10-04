@@ -3,6 +3,8 @@ html{
 }
 body{
     line-height: 1.7;
+    font-family: 'Cabin', sans-serif;
+    font-size: 1.1rem;
 }
 
 /* === Navbar === */
@@ -10,6 +12,16 @@ body{
     padding-left:7px;
     padding-right:7px;
     letter-spacing: 1px;
+}
+.navbar-brand{
+    font-family: 'Nunito', sans-serif;
+    font-weight: 600;
+    font-size: 1.3rem;
+}
+
+a.navbar-brand span{
+    font-size: 1.7rem;
+    font-weight: 900;
 }
 
 /* === Carousel === */
@@ -41,6 +53,75 @@ hr.style-two {
     height: 2px;
     background-image: linear-gradient(to right, rgba(0, 0, 0, 0), rgba(0, 0, 0, 0.75), rgba(0, 0, 0, 0));
 }
+/* End About */
+
+/* ==== Events section ==== */
+.events .card {
+    border: 0;
+    padding: 0 30px;
+    margin-bottom: 60px;
+    position: relative;
+}
+  
+.events .card-img {
+    width: calc(100% + 60px);
+    margin-left: -30px;
+    overflow: hidden;
+    z-index: 9;
+    border-radius: 0;
+}
+
+.events .card-img img {
+    max-width: 100%;
+}
+
+.events .card-body {
+    z-index: 10;
+    background: #fff;
+    padding: 30px;
+    box-shadow: 0px 2px 15px rgba(0, 0, 0, 0.1);
+    margin-top: -60px;
+}
+
+.events .card-title {
+    font-weight: 700;
+    text-align: center;
+}
+
+.events .card-title a {
+    color: #37423b;
+    transition: 0.3s;
+    text-decoration: none;
+    font-size: 1.3rem;
+}
+
+.events .card-text {
+    color: #5e5e5e;
+}
+.btn-outline-success {
+    color: #5fcf80;
+    border-color:#5fcf80;
+}
+.btn-outline-success:hover {
+    background-color: #5fcf80;
+    border-color:#5fcf80;
+}  
+.events a {
+    color: #777777;
+    text-transform: uppercase;
+    font-weight: 600;
+    font-size: 12px;
+    transition: 0.3s;
+}
+.events a:hover {
+    color: #5fcf80;
+}
+  
+.events .card:hover .card-body .card-title a {
+    color: #5fcf80;
+}
+
+/* End Events */
 
 /* === Trainers === */
 .trainers .member {
@@ -60,7 +141,7 @@ hr.style-two {
 
 .trainers .member h4 {
     font-weight: 700;
-        margin-bottom: 2px;
+    margin-bottom: 2px;
     font-size: 25px;
 }
 
@@ -121,6 +202,5 @@ footer
     text-decoration: none;
 }
 #submit {
-    width: 50%;
-    
+    width: 50%;   
 }
