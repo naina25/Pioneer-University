@@ -141,6 +141,7 @@ hr.style-two {
     
 }
 
+
 /* End Events */
 
 /* === Trainers === */
@@ -162,6 +163,9 @@ hr.style-two {
 .trainers .member h4 {
     font-weight: 700;
     margin-bottom: 2px;
+    
+}
+.shade{
     color: #a14949;
     font-size: 1.9rem;
 }
